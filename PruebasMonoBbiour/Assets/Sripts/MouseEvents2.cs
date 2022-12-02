@@ -20,6 +20,16 @@ public class MouseEvents2 : MonoBehaviour
     {
         rend.material.color = Color.white * Time.deltaTime;
     }
+    //Cuando deja de presionarse el boton
+    private void OnMouseUp()
+    {
+        print("soltaste el boton");
+    }
+    //Cuando deja de presionarse el boton sobre el mismo GUI o collider sobre el que se presiono
+    private void OnMouseUpAsButton()
+    {
+        print("... y lo soltaste sobre la misma superficie");
+    }
 
 
 }
