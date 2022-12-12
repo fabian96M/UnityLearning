@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Time : MonoBehaviour
+public class TimeClassPractice : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   
 
-    // Update is called once per frame
+   
+    public float dtime;
     void Update()
     {
-        
+        /** DeltaTime devuelve la cantidad de tiempo en segundos transcurridos 
+         * desde que se completó el último cuadro. Este valor varía en función de los fotogramas 
+         * por segundo (FPS) a la que se ejecuta su juego o aplicación.**/
+        dtime = Time.deltaTime;
+        print("Tiempo delta = " + dtime);
     }
+
 }
