@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 742818131}
   - component: {fileID: 742818130}
   - component: {fileID: 742818129}
+  - component: {fileID: 742818134}
   - component: {fileID: 742818133}
   m_Layer: 0
   m_Name: Cube
@@ -305,8 +306,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742818128}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5967059, y: 2.8688302, z: -1.4114366}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.5967059, y: 2.8688302, z: -1.4114361}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -321,10 +322,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 742818128}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff613ae3be69f5241b50f25e633d96ce, type: 3}
+  m_Script: {fileID: 11500000, guid: bc6a9355e447c93489908dd6ff663630, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EscalaDeTiempo: 12
+  dtime: 0
+--- !u!54 &742818134
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742818128}
+  serializedVersion: 2
+  m_Mass: 1.1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,7 +418,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
