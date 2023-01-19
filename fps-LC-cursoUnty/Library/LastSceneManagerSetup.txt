@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/escenaDePruebaFPS-LC.unity
+- path: Assets/Scenes/FpsC1LuisCanaryCurso.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
